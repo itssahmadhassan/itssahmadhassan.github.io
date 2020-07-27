@@ -1809,6 +1809,9 @@ input, select, textarea {
 				ul.social li a.fa-facebook-f {
 					background-color: #3C5A98;
 				}
+				ul.social li a.fa-whatsapp {
+					background-color: #25d366;
+				}
 
 				ul.social li a.fa-dribbble {
 					background-color: #C4376B;
