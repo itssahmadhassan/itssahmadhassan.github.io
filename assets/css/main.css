@@ -762,7 +762,7 @@
 				text-align: center;
 				text-indent: 3.75em;
 				white-space: nowrap;
-				margin-left:0.7em;
+				margin-left:0.5em;
 			}
 
 				/* ul.icons li a:before { */
@@ -801,7 +801,7 @@
 
 				ul.icons li a:hover {
 					border-color: rgb(250 176 60);
-					font-size: 0.9rem;
+					font-size: 93%;
 					
 				}
 
