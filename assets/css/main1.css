@@ -1800,6 +1800,9 @@ input, select, textarea {
 					overflow: hidden;
 					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
 					width: 48px;
+					  border: 1px solid;
+  
+					box-shadow: 0.5px 1.5px rgb(250 176 60);
 				}
 
 				ul.social li a.fa-twitter {
@@ -1826,11 +1829,11 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-google-plus {
-					background-color: #DA2713;
+					background-color: #e24a40;
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #FFFFFF;
 				}
 
 				ul.social li a.fa-rss {
@@ -1838,7 +1841,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-instagram {
-					background-color: #E0D7C8;
+					background-color: #ebd3d5;
 				}
 
 				ul.social li a.fa-foursquare {

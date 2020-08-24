@@ -7,6 +7,35 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+		#path a:hover{
+			 color: white;
+			  font-size: 105%;
+
+				
+		}
+		#social a:hover{
+			text-decoration:none;
+
+		}
+		
+		#main span{
+			color:rgb(250 176 60);
+		}
+		#main a{
+			color:rgb(250 176 60);
+		
+		}
+		#main a:hover{
+			color:rgb(250 176 60);
+			text-decoration:none;
+			font-size: 103%;
+			
+		}
+		
+
+
+
+
 /* Icon (alt) */
 
 	html, body, div, span, applet, object,
@@ -113,7 +142,7 @@
 
 	body {
 		height: 100%;
-		background-color: #ffffff;
+		background-color: blue;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
@@ -135,10 +164,10 @@
 			opacity: 0;
 			z-index: 1;
 			background-color: #ffffff;
-			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0,0, 0.35));
+			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(0, 0, 150, 0.5) 50%, rgba(0, 0, 0, 0.35));
+			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.35));
+			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.35));
 			background-repeat: no-repeat;
 			background-size: 100px 100px, cover;
 			background-position: top left,		center center;
@@ -921,7 +950,7 @@
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		padding: 0em 3em 0em 3em ;
-		background: #ffffff;
+		background: rgba(0,0,0,0.25);
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
@@ -929,7 +958,7 @@
 		position: relative;
 		text-align: center;
 		width: 25em;
-		background:transparent;
+		/* background:transparent; */
 		
 	}
 
@@ -1040,6 +1069,7 @@
 		min-height: 100%;
 		/* padding: 1.5em; */
 		z-index: 2;
+		
 	}
 
 		#wrapper > * {
@@ -1061,4 +1091,5 @@
 
 		body.is-ie #wrapper {
 			height: 100%;
+			
 		}
